@@ -1,0 +1,30 @@
+{
+    "name": "firstserver",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [
+        "nodejs",
+        "express",
+        "axios",
+        "morgan",
+        "ejs"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev:start": "nodemon --watch"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "body-parser": "^1.18.3",
+        "dayjs": "1.7.5",
+        "ejs": "2.6.1",
+        "express": "^4.16.3",
+        "morgan": "1.9.1",
+        "xml2js": "^0.4.19"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
+    }
+}
