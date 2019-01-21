@@ -3,8 +3,8 @@
 
     TEST-001    
     Асинхронное тестирование, Zombie + Puppeteer  
-    + [Task]:https://kodaktor.ru/g/07092018
-    + [Solution]:https://github.com/alisashaykk/goss3/tree/master/1_TEST-001
+    [Task]:https://kodaktor.ru/g/07092018
+    [Solution]:https://github.com/alisashaykk/goss3/tree/master/1_TEST-001
     
 
     NODE-001 
