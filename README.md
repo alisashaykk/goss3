@@ -46,5 +46,21 @@
 Хакатон с отправкой зашифрованного сообщения  
 [Task](https://kodaktor.ru/public23112018)  
 [Solution](https://github.com/alisashaykk/goss3/tree/master/7_CODE-001)
+
+
+
+### SOCK-001  
+ИТОГОВОЕ задание / задание по практике
+(Запуск на локальном сервере)
+[Task](https://github.com/GossJS/nosocks)  
+[Solution](https://github.com/alisashaykk/goss3/tree/master/8_SOCK-001)
+
+
+
+### TERM-001  
+ИТОГОВОЕ задание / задание по практике
+(Запуск на локальном сервере)
+[Task](https://kodaktor.ru/blogger_task)  
+[Solution](https://github.com/alisashaykk/goss3/tree/master/9_TERM-001)
     
     
