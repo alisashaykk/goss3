@@ -49,17 +49,16 @@
 
 
 
-### SOCK-001  
-ИТОГОВОЕ задание / задание по практике
-(Запуск на локальном сервере)
-[Task](https://github.com/GossJS/nosocks)  
+### SOCK-001   
+Чат на socket.io и на ReactPHP (по материалам доклада 30.11.2018)    
+[Task](https://github.com/GossJS/nosocks)    
 [Solution](https://github.com/alisashaykk/goss3/tree/master/8_SOCK-001)
 
 
 
-### TERM-001  
-ИТОГОВОЕ задание / задание по практике
-(Запуск на локальном сервере)
+### TERM-001   
+ИТОГОВОЕ задание / задание по практике  
+(Запуск на локальном сервере)  
 [Task](https://kodaktor.ru/blogger_task)  
 [Solution](https://github.com/alisashaykk/goss3/tree/master/9_TERM-001)
     
