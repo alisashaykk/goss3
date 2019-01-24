@@ -1,0 +1,29 @@
+<header class="masthead text-center d-flex">
+    <div class="container my-auto">
+        <div class="row">
+                 {{data.title}}
+            
+            <hr>
+        </div>
+       
+        <div class="row">
+            {{data.content}}
+			
+			<hr>
+		</div>
+		<div class="row">
+			Author: {{data.author}}
+        </div>
+		<hr>
+		{{#if allowed}}
+            <span>
+                <a class="btn btn-success" href="/blog/edit/{{data._id}}" role="button"> Edit </a>
+            </span>
+            <span>
+                <a id="deletebtn" data-id="{{data._id}}" class="btn btn-danger"> Delete </a>
+            </span>
+            {{/if}}
+		</div>
+
+</header>
+

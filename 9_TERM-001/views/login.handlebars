@@ -1,0 +1,57 @@
+<header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+        {{#if success_msg}}
+        <div class="alert alert-success">
+            {{success_msg}}
+        </div>
+        {{/if}} {{#if error}}
+        <div class="alert alert-danger">
+            {{error}}
+        </div>
+        {{/if}} {{#if error_msg}}
+        <div class="alert alert-danger">
+            {{error_msg}}
+        </div>
+        {{/if}}
+
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+
+                <div class="wrapper">
+                    <form class="form-signin" method="POST" action="/user/login">
+                        <h2 class="form-signin-heading">Please login</h2>
+                        <input type="text" class="form-control" name="username" placeholder="Username" required="" autofocus="" />
+                        <input type="password" class="form-control" name="password" placeholder="Password" required="" /> {{!--
+                        <label class="checkbox">
+                            <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+                        </label> --}}
+                        <button class="btn btn-primary" type="submit">Login</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+    .wrapper {
+
+        vertical-align: middle;
+    }
+
+    input[type="text"] {
+
+        margin-bottom: 2px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    input[type="password"] {
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+</style>

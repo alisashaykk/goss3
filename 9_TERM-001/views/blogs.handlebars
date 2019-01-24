@@ -1,0 +1,13 @@
+<header class="masthead text-center text-white d-flex">
+  <div class="container my-auto">
+    <div class="row">
+        <ul>
+          {{#each blog}}
+          <li>
+            <a href="/blog/show/{{this.[1]}}"+>{{{this.[0]}}}</a>
+          </li>
+          {{/each}}
+        </ul>
+    </div>
+  </div>
+</header>
